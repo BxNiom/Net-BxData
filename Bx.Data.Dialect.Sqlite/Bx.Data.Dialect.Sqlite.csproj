@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>BxDb.Dialect.SQLite</PackageId>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>Bx Database SQLite extension</Title>
+        <Authors>BxNiom</Authors>
+        <Description>SQLite dialect for database entity system</Description>
+        <Copyright>BxNiom</Copyright>
+        <PackageProjectUrl>https://git.bxniom.org/BxNiom/Net.BxDb</PackageProjectUrl>
+        <PackageLicenseUrl>https://git.bxniom.org/BxNiom/Net.BxDb/src/commit/f2626ef911e89541815f5fefd4a945078148d13b/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://git.bxniom.org/BxNiom/Net.BxDb</RepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <PackageTags>Database, Poco, DbContext, Entities, SQLite</PackageTags>
+        <RootNamespace>Bx.Data.Dialects.Sqlite</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Bx.Data\Bx.Data.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.10"/>
+    </ItemGroup>
+
+</Project>

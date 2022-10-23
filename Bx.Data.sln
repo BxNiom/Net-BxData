@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bx.Data", "Bx.Data\Bx.Data.csproj", "{97841B79-4CC9-434E-9029-4817529C1E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bx.Data.Dialect.Sqlite", "Bx.Data.Dialect.Sqlite\Bx.Data.Dialect.Sqlite.csproj", "{26A7A69E-B642-4792-B9EF-0E7D2656D3FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBench", "TestBench\TestBench.csproj", "{BFD77B91-8910-4D90-B571-9539070A11C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97841B79-4CC9-434E-9029-4817529C1E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97841B79-4CC9-434E-9029-4817529C1E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97841B79-4CC9-434E-9029-4817529C1E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97841B79-4CC9-434E-9029-4817529C1E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A7A69E-B642-4792-B9EF-0E7D2656D3FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A7A69E-B642-4792-B9EF-0E7D2656D3FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A7A69E-B642-4792-B9EF-0E7D2656D3FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A7A69E-B642-4792-B9EF-0E7D2656D3FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD77B91-8910-4D90-B571-9539070A11C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD77B91-8910-4D90-B571-9539070A11C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD77B91-8910-4D90-B571-9539070A11C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD77B91-8910-4D90-B571-9539070A11C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
