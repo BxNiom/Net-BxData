@@ -1,3 +1,3 @@
-# BxDbhttps://git.bxniom.org/BxNiom/Net.BxDb.git
+# BxDb
 
 Small database ORM system
